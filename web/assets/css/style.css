@@ -1,0 +1,51 @@
+/* 
+    Document   : style
+    Created on : 19.Eki.2011, 17:07:51
+    Author     : b.cirak
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#header,
+#footer,
+.grid-1,
+.grid-2 {
+  background: #e3e3e3;
+  margin: 1%;
+  padding: 1%;
+}
+
+.grid-1,
+.grid-2 {
+  float: left;
+}
+
+.grid-1 {
+  width: 80%;
+}
+
+.grid-2 {
+  float: right;
+  width: 12%
+}
+
+/* Contain floats: h5bp.com/q */
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+
+.clearfix:after {
+    clear:both;
+}
+
+.clearfix {
+    zoom:1;
+}
+

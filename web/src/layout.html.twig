@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/web/assets/css/style.css">
+
+    <title>Welcome</title>
+
+  </head>
+  <body>
+
+    <div id="content">
+      <div id="header">
+        Header
+      </div>
+      <div class="master clearfix">
+        <div class="grid-1">
+          {% block content %}{% endblock %}
+        </div>
+        <div class="grid-2">
+          {% include '_sidebar.html.twig' %}
+        </div>
+      </div>
+      <div id="footer">
+        Footer
+      </div>
+    </div>
+  </body>
+</html>
